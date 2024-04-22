@@ -1,0 +1,1 @@
+Mostrar el contenido de un fichero que se le pasa como parámetro.

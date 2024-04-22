@@ -1,0 +1,169 @@
+total 4.0K
+drwxr-xr-x  17 root root        3.3K Apr 14 12:14 .
+drwxr-xr-x  19 root root        4.0K Apr 14 10:58 ..
+crw-r--r--   1 root root     10, 235 Apr 14 12:14 autofs
+drwxr-xr-x   2 root root         300 Apr 14 12:14 block
+drwxr-xr-x   2 root root          80 Apr 14 12:14 bsg
+crw-------   1 root root     10, 234 Apr 14 12:14 btrfs-control
+drwxr-xr-x   3 root root          60 Apr 14 12:14 bus
+lrwxrwxrwx   1 root root           3 Apr 14 12:14 cdrom -> sr0
+drwxr-xr-x   2 root root        3.0K Apr 14 12:14 char
+crw-------   1 root root      5,   1 Apr 14 12:14 console
+lrwxrwxrwx   1 root root          11 Apr 14 12:14 core -> /proc/kcore
+crw-------   1 root root     10, 125 Apr 14 12:14 cpu_dma_latency
+crw-------   1 root root     10, 203 Apr 14 12:14 cuse
+drwxr-xr-x   7 root root         140 Apr 14 12:14 disk
+drwxr-xr-x   3 root root         100 Apr 14 12:14 dri
+crw-rw----   1 root video    29,   0 Apr 14 12:14 fb0
+lrwxrwxrwx   1 root root          13 Apr 14 12:14 fd -> /proc/self/fd
+crw-rw-rw-   1 root root      1,   7 Apr 14 12:14 full
+crw-rw-rw-   1 root root     10, 229 Apr 14 12:14 fuse
+crw-------   1 root root    246,   0 Apr 14 12:14 hidraw0
+crw-------   1 root root     10, 228 Apr 14 12:14 hpet
+drwxr-xr-x   2 root root           0 Apr 14 12:14 hugepages
+lrwxrwxrwx   1 root root          12 Apr 14 12:14 initctl -> /run/initctl
+drwxr-xr-x   4 root root         360 Apr 14 12:14 input
+crw-r--r--   1 root root      1,  11 Apr 14 12:14 kmsg
+lrwxrwxrwx   1 root root          28 Apr 14 12:14 log -> /run/systemd/journal/dev-log
+crw-rw----   1 root disk     10, 237 Apr 14 12:14 loop-control
+brw-rw----   1 root disk      7,   0 Apr 14 12:14 loop0
+brw-rw----   1 root disk      7,   1 Apr 14 12:14 loop1
+brw-rw----   1 root disk      7,   2 Apr 14 12:14 loop2
+brw-rw----   1 root disk      7,   3 Apr 14 12:14 loop3
+brw-rw----   1 root disk      7,   4 Apr 14 12:14 loop4
+brw-rw----   1 root disk      7,   5 Apr 14 12:14 loop5
+brw-rw----   1 root disk      7,   6 Apr 14 12:14 loop6
+brw-rw----   1 root disk      7,   7 Apr 14 12:14 loop7
+drwxr-xr-x   2 root root          60 Apr 14 12:14 mapper
+crw-r-----   1 root kmem      1,   1 Apr 14 12:14 mem
+drwxrwxrwt   2 root root          40 Apr 14 12:14 mqueue
+drwxr-xr-x   2 root root          60 Apr 14 12:14 net
+crw-rw-rw-   1 root root      1,   3 Apr 14 12:14 null
+crw-------   1 root root     10, 144 Apr 14 12:14 nvram
+crw-r-----   1 root kmem      1,   4 Apr 14 12:14 port
+crw-------   1 root root    108,   0 Apr 14 12:14 ppp
+crw-------   1 root root     10,   1 Apr 14 12:14 psaux
+crw-rw-rw-   1 root tty       5,   2 Apr 14 12:29 ptmx
+drwxr-xr-x   2 root root           0 Apr 14 12:14 pts
+crw-rw-rw-   1 root root      1,   8 Apr 14 12:14 random
+crw-rw-r--+  1 root netdev   10, 242 Apr 14 12:14 rfkill
+lrwxrwxrwx   1 root root           4 Apr 14 12:14 rtc -> rtc0
+crw-------   1 root root    250,   0 Apr 14 12:14 rtc0
+brw-rw----   1 root disk      8,   0 Apr 14 12:14 sda
+brw-rw----   1 root disk      8,   1 Apr 14 12:14 sda1
+brw-rw----   1 root disk      8,   2 Apr 14 12:14 sda2
+brw-rw----   1 root disk      8,   5 Apr 14 12:14 sda5
+crw-rw----   1 root disk     21,   0 Apr 14 12:14 sg0
+crw-rw----+  1 root cdrom    21,   1 Apr 14 12:14 sg1
+drwxrwxrwt   2 root root          40 Apr 14 12:14 shm
+crw-------   1 root root     10, 231 Apr 14 12:14 snapshot
+drwxr-xr-x   3 root root         180 Apr 14 12:14 snd
+brw-rw----+  1 root cdrom    11,   0 Apr 14 12:14 sr0
+lrwxrwxrwx   1 root root          15 Apr 14 12:14 stderr -> /proc/self/fd/2
+lrwxrwxrwx   1 root root          15 Apr 14 12:14 stdin -> /proc/self/fd/0
+lrwxrwxrwx   1 root root          15 Apr 14 12:14 stdout -> /proc/self/fd/1
+crw-rw-rw-   1 root tty       5,   0 Apr 14 12:29 tty
+crw--w----   1 root tty       4,   0 Apr 14 12:14 tty0
+crw--w----   1 root tty       4,   1 Apr 14 12:14 tty1
+crw--w----   1 root tty       4,  10 Apr 14 12:14 tty10
+crw--w----   1 root tty       4,  11 Apr 14 12:14 tty11
+crw--w----   1 root tty       4,  12 Apr 14 12:14 tty12
+crw--w----   1 root tty       4,  13 Apr 14 12:14 tty13
+crw--w----   1 root tty       4,  14 Apr 14 12:14 tty14
+crw--w----   1 root tty       4,  15 Apr 14 12:14 tty15
+crw--w----   1 root tty       4,  16 Apr 14 12:14 tty16
+crw--w----   1 root tty       4,  17 Apr 14 12:14 tty17
+crw--w----   1 root tty       4,  18 Apr 14 12:14 tty18
+crw--w----   1 root tty       4,  19 Apr 14 12:14 tty19
+crw--w----   1 root tty       4,   2 Apr 14 12:14 tty2
+crw--w----   1 root tty       4,  20 Apr 14 12:14 tty20
+crw--w----   1 root tty       4,  21 Apr 14 12:14 tty21
+crw--w----   1 root tty       4,  22 Apr 14 12:14 tty22
+crw--w----   1 root tty       4,  23 Apr 14 12:14 tty23
+crw--w----   1 root tty       4,  24 Apr 14 12:14 tty24
+crw--w----   1 root tty       4,  25 Apr 14 12:14 tty25
+crw--w----   1 root tty       4,  26 Apr 14 12:14 tty26
+crw--w----   1 root tty       4,  27 Apr 14 12:14 tty27
+crw--w----   1 root tty       4,  28 Apr 14 12:14 tty28
+crw--w----   1 root tty       4,  29 Apr 14 12:14 tty29
+crw--w----   1 root tty       4,   3 Apr 14 12:14 tty3
+crw--w----   1 root tty       4,  30 Apr 14 12:14 tty30
+crw--w----   1 root tty       4,  31 Apr 14 12:14 tty31
+crw--w----   1 root tty       4,  32 Apr 14 12:14 tty32
+crw--w----   1 root tty       4,  33 Apr 14 12:14 tty33
+crw--w----   1 root tty       4,  34 Apr 14 12:14 tty34
+crw--w----   1 root tty       4,  35 Apr 14 12:14 tty35
+crw--w----   1 root tty       4,  36 Apr 14 12:14 tty36
+crw--w----   1 root tty       4,  37 Apr 14 12:14 tty37
+crw--w----   1 root tty       4,  38 Apr 14 12:14 tty38
+crw--w----   1 root tty       4,  39 Apr 14 12:14 tty39
+crw--w----   1 root tty       4,   4 Apr 14 12:14 tty4
+crw--w----   1 root tty       4,  40 Apr 14 12:14 tty40
+crw--w----   1 root tty       4,  41 Apr 14 12:14 tty41
+crw--w----   1 root tty       4,  42 Apr 14 12:14 tty42
+crw--w----   1 root tty       4,  43 Apr 14 12:14 tty43
+crw--w----   1 root tty       4,  44 Apr 14 12:14 tty44
+crw--w----   1 root tty       4,  45 Apr 14 12:14 tty45
+crw--w----   1 root tty       4,  46 Apr 14 12:14 tty46
+crw--w----   1 root tty       4,  47 Apr 14 12:14 tty47
+crw--w----   1 root tty       4,  48 Apr 14 12:14 tty48
+crw--w----   1 root tty       4,  49 Apr 14 12:14 tty49
+crw--w----   1 root tty       4,   5 Apr 14 12:14 tty5
+crw--w----   1 root tty       4,  50 Apr 14 12:14 tty50
+crw--w----   1 root tty       4,  51 Apr 14 12:14 tty51
+crw--w----   1 root tty       4,  52 Apr 14 12:14 tty52
+crw--w----   1 root tty       4,  53 Apr 14 12:14 tty53
+crw--w----   1 root tty       4,  54 Apr 14 12:14 tty54
+crw--w----   1 root tty       4,  55 Apr 14 12:14 tty55
+crw--w----   1 root tty       4,  56 Apr 14 12:14 tty56
+crw--w----   1 root tty       4,  57 Apr 14 12:14 tty57
+crw--w----   1 root tty       4,  58 Apr 14 12:14 tty58
+crw--w----   1 root tty       4,  59 Apr 14 12:14 tty59
+crw--w----   1 root tty       4,   6 Apr 14 12:14 tty6
+crw--w----   1 root tty       4,  60 Apr 14 12:14 tty60
+crw--w----   1 root tty       4,  61 Apr 14 12:14 tty61
+crw--w----   1 root tty       4,  62 Apr 14 12:14 tty62
+crw--w----   1 root tty       4,  63 Apr 14 12:14 tty63
+crw--w----   1 root tty       4,   7 Apr 14 12:14 tty7
+crw--w----   1 root tty       4,   8 Apr 14 12:14 tty8
+crw--w----   1 root tty       4,   9 Apr 14 12:14 tty9
+crw-rw----   1 root dialout   4,  64 Apr 14 12:14 ttyS0
+crw-rw----   1 root dialout   4,  65 Apr 14 12:14 ttyS1
+crw-rw----   1 root dialout   4,  66 Apr 14 12:14 ttyS2
+crw-rw----   1 root dialout   4,  67 Apr 14 12:14 ttyS3
+crw-------   1 root root     10, 239 Apr 14 12:14 uhid
+crw-------   1 root root     10, 223 Apr 14 12:14 uinput
+crw-rw-rw-   1 root root      1,   9 Apr 14 12:14 urandom
+crw-------   1 root root     10, 126 Apr 14 12:14 userfaultfd
+crw-rw----   1 root root     10, 124 Apr 14 12:14 vboxguest
+crw-rw-rw-   1 root root     10, 123 Apr 14 12:14 vboxuser
+crw-rw----   1 root tty       7,   0 Apr 14 12:14 vcs
+crw-rw----   1 root tty       7,   1 Apr 14 12:14 vcs1
+crw-rw----   1 root tty       7,   2 Apr 14 12:14 vcs2
+crw-rw----   1 root tty       7,   3 Apr 14 12:14 vcs3
+crw-rw----   1 root tty       7,   4 Apr 14 12:14 vcs4
+crw-rw----   1 root tty       7,   5 Apr 14 12:14 vcs5
+crw-rw----   1 root tty       7,   6 Apr 14 12:14 vcs6
+crw-rw----   1 root tty       7,   7 Apr 14 12:14 vcs7
+crw-rw----   1 root tty       7, 128 Apr 14 12:14 vcsa
+crw-rw----   1 root tty       7, 129 Apr 14 12:14 vcsa1
+crw-rw----   1 root tty       7, 130 Apr 14 12:14 vcsa2
+crw-rw----   1 root tty       7, 131 Apr 14 12:14 vcsa3
+crw-rw----   1 root tty       7, 132 Apr 14 12:14 vcsa4
+crw-rw----   1 root tty       7, 133 Apr 14 12:14 vcsa5
+crw-rw----   1 root tty       7, 134 Apr 14 12:14 vcsa6
+crw-rw----   1 root tty       7, 135 Apr 14 12:14 vcsa7
+crw-rw----   1 root tty       7,  64 Apr 14 12:14 vcsu
+crw-rw----   1 root tty       7,  65 Apr 14 12:14 vcsu1
+crw-rw----   1 root tty       7,  66 Apr 14 12:14 vcsu2
+crw-rw----   1 root tty       7,  67 Apr 14 12:14 vcsu3
+crw-rw----   1 root tty       7,  68 Apr 14 12:14 vcsu4
+crw-rw----   1 root tty       7,  69 Apr 14 12:14 vcsu5
+crw-rw----   1 root tty       7,  70 Apr 14 12:14 vcsu6
+crw-rw----   1 root tty       7,  71 Apr 14 12:14 vcsu7
+drwxr-xr-x   2 root root          60 Apr 14 12:14 vfio
+crw-------   1 root root     10, 127 Apr 14 12:14 vga_arbiter
+crw-------   1 root root     10, 137 Apr 14 12:14 vhci
+crw-rw----   1 root kvm      10, 238 Apr 14 12:14 vhost-net
+crw-rw----   1 root kvm      10, 241 Apr 14 12:14 vhost-vsock
+crw-rw-rw-   1 root root      1,   5 Apr 14 12:14 zero
