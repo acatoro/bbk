@@ -1,0 +1,28 @@
+
+BOOTCAMP DE CIBERSEGURIDAD
+
+Fecha prevista de inicio: 08/04/2024
+Fecha prevista fin: 26/10/2024
+Días de impartición: LXV de 18:00 a 21:00 S de 09:00 a 14:00
+Duración total: 490 horas
+
+----------------------------------------
+
+Programa:
+
+1.FUNDAMENTOS DE CIBERSEGURIDAD (RAMPUP)
+El primer bloque es en el que los alumnos trabajarán sobre conocimientos básicos de los distintos sistemas operativos y manejo de los mismos, además de distintos lenguajes básicos y conocimientos de seguridad iniciales
+
+2. SEGURIDAD OFENSIVA
+El segundo bloque trabaja sobre la adquisición de los conocimientos avanzados para evaluar la seguridad entera de una organización mediante la simulación de ataques sobre todo tipo de dispositivos.
+
+3. SEGURIDAD DEFENSIVA
+La tercera unidad está compuesta de conocimientos avanzados sobre la búsqueda, de forma proactiva, de amenazas que puedan poner en riesgo los activos de una organización, interviniendo en la detección, respuesta y análisis de los incidentes, además del estudio pormenorizado de las mismas.
+
+----------------------------------------
+
+Dirección de impartición: Cl Urazurrutia Kalea Nº 3 Cp 48003 , Bilbao - Bizkaia
+E-mail del centro: corporate@thebridgeschool.es
+E-mail secretaria: alumnos@thebridgeschool.es
+Teléfono de información: 919017257
+
