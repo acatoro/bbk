@@ -1,0 +1,7 @@
+
+sudo apt install openssh-server
+
+ssh-keygen -t rsa
+
+cat .ssh/id_rsa.pub
+
