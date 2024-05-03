@@ -1,0 +1,187 @@
+┌──(toro㉿kali)-[~]
+└─$ cd bbk/criptografia
+                                                                                          
+┌──(toro㉿kali)-[~/bbk/criptografia]
+└─$ ls
+clave_publica.asc  lista2.txt       mensaje.txt      secreto.txt
+lista.txt          lista2.txt.save  mensaje.txt.gpg
+                                                                                          
+┌──(toro㉿kali)-[~/bbk/criptografia]
+└─$ echo 'hola' > fichero.txt
+                                                                                          
+┌──(toro㉿kali)-[~/bbk/criptografia]
+└─$ ls
+clave_publica.asc  lista.txt   lista2.txt.save  mensaje.txt.gpg
+fichero.txt        lista2.txt  mensaje.txt      secreto.txt
+                                                                                          
+┌──(toro㉿kali)-[~/bbk/criptografia]
+└─$ md5sum fichero.txt
+916f4c31aaa35d6b867dae9a7f54270d  fichero.txt
+                                                                                          
+┌──(toro㉿kali)-[~/bbk/criptografia]
+└─$ echo 'adios' > fichero.txt
+                                                                                          
+┌──(toro㉿kali)-[~/bbk/criptografia]
+└─$ md5sum fichero.txt        
+fde19fa49661fb638dac5f30ab0f661e  fichero.txt
+                                                                                          
+┌──(toro㉿kali)-[~/bbk/criptografia]
+└─$ cat fichero.txt    
+adios
+                                                                                          
+┌──(toro㉿kali)-[~/bbk/criptografia]
+└─$ 
+                                                                                          
+┌──(toro㉿kali)-[~/bbk/criptografia]
+└─$ sha1sum fichero.txt
+63b76b20dd24f5a4104e9c412be1ba8e71b6b05c  fichero.txt
+                                                                                          
+┌──(toro㉿kali)-[~/bbk/criptografia]
+└─$ sha256sum fichero.txt
+3000dfe470d85e4b32dc78f083da866f24d6183c48d83b42b36da98e64701ade  fichero.txt
+                                                                                          
+┌──(toro㉿kali)-[~/bbk/criptografia]
+└─$ hash-identifier
+   #########################################################################
+   #     __  __                     __           ______    _____           #
+   #    /\ \/\ \                   /\ \         /\__  _\  /\  _ `\         #
+   #    \ \ \_\ \     __      ____ \ \ \___     \/_/\ \/  \ \ \/\ \        #
+   #     \ \  _  \  /'__`\   / ,__\ \ \  _ `\      \ \ \   \ \ \ \ \       #
+   #      \ \ \ \ \/\ \_\ \_/\__, `\ \ \ \ \ \      \_\ \__ \ \ \_\ \      #
+   #       \ \_\ \_\ \___ \_\/\____/  \ \_\ \_\     /\_____\ \ \____/      #
+   #        \/_/\/_/\/__/\/_/\/___/    \/_/\/_/     \/_____/  \/___/  v1.2 #
+   #                                                             By Zion3R #
+   #                                                    www.Blackploit.com #
+   #                                                   Root@Blackploit.com #
+   #########################################################################
+--------------------------------------------------
+ HASH: 3000dfe470d85e4b32dc78f083da866f24d6183c48d83b42b36da98e64701ade
+
+Possible Hashs:
+[+] SHA-256
+[+] Haval-256
+
+Least Possible Hashs:
+[+] GOST R 34.11-94
+[+] RipeMD-256
+[+] SNEFRU-256
+[+] SHA-256(HMAC)
+[+] Haval-256(HMAC)
+[+] RipeMD-256(HMAC)
+[+] SNEFRU-256(HMAC)
+[+] SHA-256(md5($pass))
+[+] SHA-256(sha1($pass))
+--------------------------------------------------
+ HASH: 
+
+                                                                        
+┌──(toro㉿kali)-[~/bbk/criptografia]
+└─$ git clone https://github.com/UltimateHackers/Decodify
+Cloning into 'Decodify'...
+remote: Enumerating objects: 138, done.
+remote: Total 138 (delta 0), reused 0 (delta 0), pack-reused 138
+Receiving objects: 100% (138/138), 57.00 KiB | 778.00 KiB/s, done.
+Resolving deltas: 100% (62/62), done.
+                                                                        
+┌──(toro㉿kali)-[~/bbk/criptografia]
+└─$ ls
+Decodify           fichero.txt  lista2.txt       mensaje.txt      secret
+clave_publica.asc  lista.txt    lista2.txt.save  mensaje.txt.gpg  termin
+                                                                        
+┌──(toro㉿kali)-[~/bbk/criptografia]
+└─$ cd Decodify        
+                                                                        
+┌──(toro㉿kali)-[~/bbk/criptografia/Decodify]
+└─$ ls
+README.md  dcode  makefile
+                                                                        
+┌──(toro㉿kali)-[~/bbk/criptografia/Decodify]
+└─$ make install      
+[sudo] password for toro: 
+Everything is setup! Enter 'dcode <string>' in terminal to use decodify
+                                                                        
+┌──(toro㉿kali)-[~/bbk/criptografia/Decodify]
+└─$ echo 'este texto es para decodificar' | openssl enc -a -e
+ZXN0ZSB0ZXh0byBlcyBwYXJhIGRlY29kaWZpY2FyCg==
+                                                                        
+┌──(toro㉿kali)-[~/bbk/criptografia/Decodify]
+└─$ dcode ZXN0ZSB0ZXh0byBlcyBwYXJhIGRlY29kaWZpY2FyCg==
+
+
+    __                         __                                       
+  |/  |                   | / /                                         
+  |   | ___  ___  ___  ___|  (                                          
+  |   )|___)|    |   )|   )| |___ \   )                                 
+  |__/ |__  |__  |__/ |__/ | |     \_/                                  
+                                    /                                   
+[+] Decoded from Base64 : este texto es para decodificar
+
+                                                                        
+┌──(toro㉿kali)-[~/bbk/criptografia/Decodify]
+└─$ 
+                                                                        
+┌──(toro㉿kali)-[~/bbk/criptografia/Decodify]
+└─$ echo 'ZXN0ZSB0ZXh0byBlcyBwYXJhIGRlY29kaWZpY2FyCg==' | base64 -d 
+este texto es para decodificar
+                                                                        
+┌──(toro㉿kali)-[~/bbk/criptografia/Decodify]
+└─$ echo 'ZXN0ZSB0ZXh0byBlcyBwYXJhIGRlY29kaWZpY2FyCg==' | openssl enc -a -d
+este texto es para decodificar
+                                                                        
+┌──(toro㉿kali)-[~/bbk/criptografia/Decodify]
+└─$ dcode 'bpgkta xh qtiitg iwpc sr' -rot all                     
+
+    __                         __                                       
+  |/  |                   | / /                                         
+  |   | ___  ___  ___  ___|  (                                          
+  |   )|___)|    |   )|   )| |___ \   )                                 
+  |__/ |__  |__  |__/ |__/ | |     \_/                                  
+                                    /                                   
+[+] Rot0 :  bpgkta xh qtiitg iwpc sr
+[+] Rot1 :  cqhlub yi rujjuh jxqd ts
+[+] Rot2 :  drimvc zj svkkvi kyre ut
+[+] Rot3 :  esjnwd ak twllwj lzsf vu
+[+] Rot4 :  ftkoxe bl uxmmxk matg wv
+[+] Rot5 :  gulpyf cm vynnyl nbuh xw
+[+] Rot6 :  hvmqzg dn wzoozm ocvi yx
+[+] Rot7 :  iwnrah eo xappan pdwj zy
+[+] Rot8 :  jxosbi fp ybqqbo qexk az
+[+] Rot9 :  kyptcj gq zcrrcp rfyl ba
+[+] Rot10 :  lzqudk hr adssdq sgzm cb
+[+] Rot11 :  marvel is better than dc
+[+] Rot12 :  nbswfm jt cfuufs uibo ed
+[+] Rot13 :  octxgn ku dgvvgt vjcp fe
+[+] Rot14 :  pduyho lv ehwwhu wkdq gf
+[+] Rot15 :  qevzip mw fixxiv xler hg
+[+] Rot16 :  rfwajq nx gjyyjw ymfs ih
+[+] Rot17 :  sgxbkr oy hkzzkx zngt ji
+[+] Rot18 :  thycls pz ilaaly aohu kj
+[+] Rot19 :  uizdmt qa jmbbmz bpiv lk
+[+] Rot20 :  vjaenu rb knccna cqjw ml
+[+] Rot21 :  wkbfov sc loddob drkx nm
+[+] Rot22 :  xlcgpw td mpeepc esly on
+[+] Rot23 :  ymdhqx ue nqffqd ftmz po
+[+] Rot24 :  zneiry vf orggre guna qp
+[+] Rot25 :  aofjsz wg pshhsf hvob rq
+                                                                        
+┌──(toro㉿kali)-[~/bbk/criptografia/Decodify]
+└─$ 
+                                                                        
+┌──(toro㉿kali)-[~/bbk/criptografia/Decodify]
+└─$ echo 'este es un mensaje para cifrado simetrico' | openssl enc -aes-256-cbc -a -e
+enter AES-256-CBC encryption password:
+Verifying - enter AES-256-CBC encryption password:
+*** WARNING : deprecated key derivation used.
+Using -iter or -pbkdf2 would be better.
+U2FsdGVkX1+D32idTF6v+4stpdWAe6xuVhJQ/4rkkkN1N9yMTt4Rz1HbVS1Rdk6R
+vwubsOCRQtanfVrhPq0dmQ==
+                                                                        
+┌──(toro㉿kali)-[~/bbk/criptografia/Decodify]
+└─$ echo 'U2FsdGVkX1+D32idTF6v+4stpdWAe6xuVhJQ/4rkkkN1N9yMTt4Rz1HbVS1Rdk6RvwubsOCRQtanfVrhPq0dmQ==' | openssl enc -aes-256-cbc -a -d
+enter AES-256-CBC decryption password:
+*** WARNING : deprecated key derivation used.
+Using -iter or -pbkdf2 would be better.
+este es un mensaje para cifrado simetrico
+                                                                        
+┌──(toro㉿kali)-[~/bbk/criptografia/Decodify]
+└─$ 
