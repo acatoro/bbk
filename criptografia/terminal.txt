@@ -185,3 +185,37 @@ este es un mensaje para cifrado simetrico
                                                                         
 ┌──(toro㉿kali)-[~/bbk/criptografia/Decodify]
 └─$ 
+┌──(toro㉿kali)-[/usr/share/wordlists]
+└─$ hashcat -m 0 -a 0 hashcrack /usr/share/wordlist/rockyou.txt
+hashcat (v6.2.6) starting
+
+/usr/share/wordlist/rockyou.txt: No such file or directory
+
+Started: Sat May  4 19:01:40 2024
+Stopped: Sat May  4 19:01:40 2024
+                                                                   
+┌──(toro㉿kali)-[/usr/share/wordlists]
+└─$ hashcat -m 0 -a 0 hashcrack /usr/share/wordlists/rockyou.txt
+hashcat (v6.2.6) starting
+
+OpenCL API (OpenCL 3.0 PoCL 5.0+debian  Linux, None+Asserts, RELOC, SPIR, LLVM 16.0.6, SLEEF, DISTRO, POCL_DEBUG) - Platform #1 [The pocl project]
+==================================================================================================================================================
+* Device #1: cpu-sandybridge-Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, 2919/5902 MB (1024 MB allocatable), 4MCU
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+
+Hash 'hashcrack': Token length exception
+
+* Token length exception: 1/1 hashes
+  This error happens if the wrong hash type is specified, if the hashes are                                                           
+  malformed, or if input is otherwise not as expected (for example, if the                                                            
+  --username option is used but no username is present)
+
+No hashes loaded.
+
+Started: Sat May  4 19:02:03 2024
+Stopped: Sat May  4 19:02:03 2024
+                                                                   
+┌──(toro㉿kali)-[/usr/share/wordlists]
+└─$ 
