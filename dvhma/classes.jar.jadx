@@ -1,0 +1,49 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "classes.jar"
+  ],
+  "treeExpansions": [
+    [
+      "Source code",
+      "classes.jar"
+    ],
+    [
+      "org.apache.cordova",
+      "Source code",
+      "classes.jar"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "org.apache.cordova.Config",
+      "subPath": "java",
+      "caret": 742,
+      "view": {
+        "x": 0,
+        "y": 117
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "org.apache.cordova.ConfigXmlParser",
+      "subPath": "java",
+      "caret": 343,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": true
+    }
+  ],
+  "cacheDir": "/root/.cache/jadx/projects/classes-9d61b9c563680b1f2743065604b01827",
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "pluginOptions": {}
+}

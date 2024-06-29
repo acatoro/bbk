@@ -1,0 +1,99 @@
+Manifest-Version: 1.0
+Built-By: 2.1.0
+Created-By: Android Gradle 2.1.0
+
+Name: assets/www/cordova-js-src/platform.js
+SHA1-Digest: /mJ5H2qTR9Bi2LjUspEVgxlBB+g=
+
+Name: AndroidManifest.xml
+SHA1-Digest: GOAd9LTOJM3YKNc0ArHcsrbIGyg=
+
+Name: res/drawable-port-ldpi-v4/screen.png
+SHA1-Digest: 0xgQIHIbfOrpLeNb8Awy2KsX/rk=
+
+Name: res/drawable-ldpi-v4/icon.png
+SHA1-Digest: 2J9Tvy/YaxPRs/ZafKZe/EsVt/o=
+
+Name: assets/www/img/logo.png
+SHA1-Digest: MW0GF0+VJyF3L6n2kH6NKUswUL0=
+
+Name: assets/www/img/ic_action_collapse.png
+SHA1-Digest: LqzFzEugQF20QwmtN1Pkw66Rm9Q=
+
+Name: assets/www/cordova-js-src/android/nativeapiprovider.js
+SHA1-Digest: FVwW8q5pXNyqdiSUoAgfev5NTHs=
+
+Name: assets/www/cordova.js
+SHA1-Digest: Czdu5ucpNMb1t/K0hBxT4PTLDWo=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA1-Digest: 7k0R15Eowd7viwJeIN6gaJ1z0j0=
+
+Name: res/drawable-land-hdpi-v4/screen.png
+SHA1-Digest: SnEeLBNJPYyr+znAdl3VZcz93hY=
+
+Name: assets/www/img/ic_action_expand.png
+SHA1-Digest: w4pmALw1mVKwgOn9wYE8JRUg6QQ=
+
+Name: res/xml/config.xml
+SHA1-Digest: tsvbyjGAKa1bO0+PQqULZX65RoA=
+
+Name: res/drawable-land-xhdpi-v4/screen.png
+SHA1-Digest: Eme1m+KzdcxmzKWK1Sn3tLqwBxk=
+
+Name: res/drawable-port-hdpi-v4/screen.png
+SHA1-Digest: QqszXVs7DAO7cpkZYgDYRx2o7mQ=
+
+Name: assets/www/css/style.css
+SHA1-Digest: erecUV1870zBsxR/NPf+Jjoh4Y4=
+
+Name: assets/www/cordova-js-src/plugin/android/app.js
+SHA1-Digest: f7p1rHw6kBqunadJYz5vUi7ZElM=
+
+Name: assets/www/index.html
+SHA1-Digest: PR9zZp9NV/BQyMdLAWmVHTUfOek=
+
+Name: assets/www/plugins/de.zertapps.dvhma.plugins.webintent/www/webin
+ tent.js
+SHA1-Digest: sdxUY3wmvfXVs7CypQL+FBq839A=
+
+Name: assets/www/cordova-js-src/android/promptbasednativeapi.js
+SHA1-Digest: WY63KRIwUfBJT7ADJajHaAGlUMA=
+
+Name: assets/www/js/index.js
+SHA1-Digest: 6CeJWopVO6nf1AgKsPSCLT5h68Q=
+
+Name: res/drawable-land-ldpi-v4/screen.png
+SHA1-Digest: ZfZgMgv6EzcmpS1oX2OZ+2L3Xg4=
+
+Name: res/drawable-port-xhdpi-v4/screen.png
+SHA1-Digest: vFPeQjaqLAS6sZilCZUrPyl6jrw=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA1-Digest: V29pfkn63ZKvWbMehv1gXLydfEg=
+
+Name: assets/www/plugins/de.zertapps.dvhma.plugins.storage/www/DVHMA-S
+ torage.js
+SHA1-Digest: r5evyBDzs56t+cHvTMesP0koMGA=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA1-Digest: Lw/SqxqQxDgeX1jWQ7pEzoJ873E=
+
+Name: resources.arsc
+SHA1-Digest: ejrFO/UfzlaETqhhikQ44nMpiVE=
+
+Name: res/drawable-land-mdpi-v4/screen.png
+SHA1-Digest: YVTonnvTeGj2Yhf0CYjFyC55TZE=
+
+Name: assets/www/cordova-js-src/exec.js
+SHA1-Digest: zC0fBe0s/SpGce1vXhhq+pTqaOU=
+
+Name: res/drawable-port-mdpi-v4/screen.png
+SHA1-Digest: xQF9FkF91ssL80U0ZZIBCcr9Qs0=
+
+Name: classes.dex
+SHA1-Digest: Ib7p3y86WMV4N9o0Qd71ENoti8M=
+
+Name: assets/www/cordova_plugins.js
+SHA1-Digest: IVIwx8MHdUFjc7/TO3YnxnbW3mI=
+
