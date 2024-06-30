@@ -1,0 +1,260 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "classes.jar"
+  ],
+  "treeExpansions": [
+    [
+      "Source code",
+      "classes.jar"
+    ],
+    [
+      "Files",
+      "Inputs",
+      "classes.jar"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "android.support.annotation.XmlRes",
+      "subPath": "java",
+      "caret": 126,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.v4.BuildConfig",
+      "subPath": "java",
+      "caret": 116,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.annotation.IdRes",
+      "subPath": "java",
+      "caret": 55,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.annotation.AnimatorRes",
+      "subPath": "java",
+      "caret": 146,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.annotation.AnimRes",
+      "subPath": "java",
+      "caret": 127,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.annotation.AnyRes",
+      "subPath": "java",
+      "caret": 126,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.annotation.ArrayRes",
+      "subPath": "java",
+      "caret": 128,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.annotation.AttrRes",
+      "subPath": "java",
+      "caret": 127,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.annotation.BoolRes",
+      "subPath": "java",
+      "caret": 127,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.annotation.CheckResult",
+      "subPath": "java",
+      "caret": 131,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.annotation.DimenRes",
+      "subPath": "java",
+      "caret": 128,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.annotation.DrawableRes",
+      "subPath": "java",
+      "caret": 131,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.annotation.FractionRes",
+      "subPath": "java",
+      "caret": 131,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.annotation.IntDef",
+      "subPath": "java",
+      "caret": 126,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.v4.accessibilityservice.AccessibilityServiceInfoCompatIcs",
+      "subPath": "java",
+      "caret": 269,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.v4.accessibilityservice.AccessibilityServiceInfoCompatJellyBeanMr2",
+      "subPath": "java",
+      "caret": 239,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat",
+      "subPath": "java",
+      "caret": 298,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.v4.app.LoaderManager",
+      "subPath": "java",
+      "caret": 257,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "android.support.v4.app.LoaderManagerImpl",
+      "subPath": "java",
+      "caret": 514,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.google.ads.AdRequest",
+      "subPath": "java",
+      "caret": 106,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.google.android.gms.R",
+      "subPath": "java",
+      "caret": 114,
+      "view": {
+        "x": 0,
+        "y": 1122
+      },
+      "active": true
+    }
+  ],
+  "cacheDir": "/root/.cache/jadx/projects/classes-d0d40987ec30cb891c537149fbddd988",
+  "enableLiveReload": false,
+  "searchHistory": [
+    "onCreate"
+  ],
+  "pluginOptions": {}
+}
